@@ -1,0 +1,10 @@
+body {
+  background-color: #74659E;
+}
+
+#content {
+  margin: auto;
+  width: 900px;
+  height: 900px;
+  padding-top: 25px;
+}
