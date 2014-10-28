@@ -17,7 +17,9 @@
     "website"
   ],
   "dependencies": {
-    "jquery": "components/jquery#~2.1.1"
+    "jquery": "components/jquery#~2.1.1",
+    "angular": "~1.3.0",
+    "fullcalendar: "2.1.1"
   },
   "license": "MIT"
 }
