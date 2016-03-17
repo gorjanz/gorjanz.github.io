@@ -103,7 +103,7 @@
 
 
 	// module
-	exports.push([module.id, "/*\r\n    http://meyerweb.com/eric/tools/css/reset/\r\n    v2.0 | 20110126\r\n    License: none (public domain)\r\n\r\n    HTML 5 Reset.\r\n*/\r\n\r\nhtml, body, div, span, applet, object, iframe,\r\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\r\na, abbr, acronym, address, big, cite, code,\r\ndel, dfn, em, img, ins, kbd, q, s, samp,\r\nsmall, strike, strong, sub, sup, tt, var,\r\nb, u, i, center,\r\ndl, dt, dd, ol, ul, li,\r\nfieldset, form, label, legend,\r\ntable, caption, tbody, tfoot, thead, tr, th, td,\r\narticle, aside, canvas, details, embed,\r\nfigure, figcaption, footer, header, hgroup,\r\nmenu, nav, output, ruby, section, summary,\r\ntime, mark, audio, video {\r\n    margin: 0;\r\n    padding: 0;\r\n    border: 0;\r\n    font-size: 100%;\r\n    font: inherit;\r\n    vertical-align: baseline;\r\n}\r\n/* HTML5 display-role reset for older browsers */\r\narticle, aside, details, figcaption, figure,\r\nfooter, header, hgroup, menu, nav, section {\r\n    display: block;\r\n}\r\nbody {\r\n    line-height: 1;\r\n}\r\nol, ul {\r\n    list-style: none;\r\n}\r\nblockquote, q {\r\n    quotes: none;\r\n}\r\nblockquote:before, blockquote:after,\r\nq:before, q:after {\r\n    content: '';\r\n    content: none;\r\n}\r\ntable {\r\n    border-collapse: collapse;\r\n    border-spacing: 0;\r\n}\r\n\r\n/* Application styles start here... */\r\n\r\n/*\r\nColors:\r\n  #235789;\r\n  #fffce8;\r\n  #dd403a;\r\n  #3e363f;\r\n  #000000;\r\n\r\n\r\n*/\r\n\r\nhtml, body {\r\n    height: 100%;\r\n}\r\n\r\n#app-main {\r\n    height: 100%;\r\n}\r\n\r\n.loadedContent {\r\n    height: 100%;\r\n}\r\n\r\n.section {\r\n    min-height: 50px;\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: center;\r\n}\r\n\r\n.section.top {\r\n    background-color: #fffce8;\r\n    height: 100%;\r\n}\r\n\r\n#profile-pic img {\r\n    flex: 1;\r\n    width: 200px;\r\n    height: 200px;\r\n    border-radius: 50%;\r\n    border: 2px solid #235789;\r\n}\r\n\r\n.badges-container {\r\n    margin-top: 20px;\r\n}\r\n\r\n.icon-mono {\r\n    height: 24px;\r\n    width: 24px;\r\n    display: inline-block;\r\n    margin: 0 5px 0 5px;\r\n    color: #235789;\r\n}\r\n", ""]);
+	exports.push([module.id, "/*\r\n    http://meyerweb.com/eric/tools/css/reset/\r\n    v2.0 | 20110126\r\n    License: none (public domain)\r\n\r\n    HTML 5 Reset.\r\n*/\r\n\r\nhtml, body, div, span, applet, object, iframe,\r\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\r\na, abbr, acronym, address, big, cite, code,\r\ndel, dfn, em, img, ins, kbd, q, s, samp,\r\nsmall, strike, strong, sub, sup, tt, var,\r\nb, u, i, center,\r\ndl, dt, dd, ol, ul, li,\r\nfieldset, form, label, legend,\r\ntable, caption, tbody, tfoot, thead, tr, th, td,\r\narticle, aside, canvas, details, embed,\r\nfigure, figcaption, footer, header, hgroup,\r\nmenu, nav, output, ruby, section, summary,\r\ntime, mark, audio, video {\r\n    margin: 0;\r\n    padding: 0;\r\n    border: 0;\r\n    font-size: 100%;\r\n    font: inherit;\r\n    vertical-align: baseline;\r\n}\r\n/* HTML5 display-role reset for older browsers */\r\narticle, aside, details, figcaption, figure,\r\nfooter, header, hgroup, menu, nav, section {\r\n    display: block;\r\n}\r\nbody {\r\n    line-height: 1;\r\n}\r\nol, ul {\r\n    list-style: none;\r\n}\r\nblockquote, q {\r\n    quotes: none;\r\n}\r\nblockquote:before, blockquote:after,\r\nq:before, q:after {\r\n    content: '';\r\n    content: none;\r\n}\r\ntable {\r\n    border-collapse: collapse;\r\n    border-spacing: 0;\r\n}\r\n\r\n/* Application styles start here... */\r\n\r\n/*\r\nColors:\r\n  #235789;\r\n  #fffce8;\r\n  #dd403a;\r\n  #3e363f;\r\n  #000000;\r\n\r\n\r\n*/\r\n\r\nhtml, body {\r\n    height: 100%;\r\n}\r\n\r\n#app-main {\r\n    height: 100%;\r\n}\r\n\r\n.loadedContent {\r\n    height: 100%;\r\n}\r\n\r\n.section {\r\n    min-height: 50px;\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: center;\r\n}\r\n\r\n.section.top {\r\n    background-color: #fffce8;\r\n    height: 100%;\r\n}\r\n\r\n#description {\r\n    width: 50%;\r\n    margin: 20px;\r\n    text-align: center;\r\n    font-size: 1.3em;\r\n    color: #235789;\r\n    font-weight: bold;\r\n}\r\n\r\n#profile-pic img {\r\n    flex: 1;\r\n    width: 200px;\r\n    height: 200px;\r\n    border-radius: 50%;\r\n    border: 2px solid #235789;\r\n}\r\n\r\n.badges-container {\r\n    margin-top: 20px;\r\n}\r\n\r\n.icon-mono {\r\n    height: 24px;\r\n    width: 24px;\r\n    display: inline-block;\r\n    margin: 0 5px 0 5px;\r\n    color: #235789;\r\n}\r\n", ""]);
 
 	// exports
 
@@ -20052,8 +20052,7 @@
 
 	  getInitialState: function getInitialState() {
 	    return {
-	      loaded: false,
-	      name: null
+	      loaded: false
 	    };
 	  },
 	  componentDidMount: function componentDidMount() {
@@ -20061,8 +20060,7 @@
 
 	    window.setTimeout(function () {
 	      _this.setState({
-	        loaded: true,
-	        name: 'World'
+	        loaded: true
 	      });
 	    }, 300);
 	  },
@@ -20074,6 +20072,11 @@
 	        'div',
 	        { className: 'section top' },
 	        _react2.default.createElement(_ProfilePic2.default, { src: './resources/profilePic.jpg' }),
+	        _react2.default.createElement(
+	          'div',
+	          { id: 'description' },
+	          this.props.config.description
+	        ),
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'badges-container' },
@@ -20658,6 +20661,7 @@
 /***/ function(module, exports) {
 
 	module.exports = {
+		"description": "Software Engineer. Technology Enthusiast. Personal Growth hacker. Passionate about Machine Learning, Music, and Football.",
 		"contact": [
 			{
 				"type": "email",
