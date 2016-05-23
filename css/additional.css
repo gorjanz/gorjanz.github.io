@@ -1,0 +1,22 @@
+/* Css rules added for the markup I've added */
+
+#life-long-learning-desc {
+  background-color: #ffffff;
+  color: #122b40;
+}
+
+#life-long-learning-desc .text-faded {
+  background-color: #ffffff;
+  color: #122b40;
+  opacity: 0.7;
+}
+
+#professionally-desc {
+  background-color: #91c4f2;
+  color: #7397c3;
+}
+
+#professionally-desc .text-faded {
+  background-color: #91c4f2;
+  color: #7397c3;
+}

@@ -1,10 +1,4 @@
-# IntelliJ
+node_modules
+
 .idea
 *.iml
-
-# Node
-node_modules
-npm-debug.log
-
-#Project
-dist
