@@ -1,17 +1,5 @@
 /* Css rules added for the markup I've added */
 
-#about-me {
-}
-
-#life-long-learning {
-  color: #122b40;
-  opacity: 0.7;
-}
-
-#professionally {
-  color: #7397c3;
-}
-
-#team-player {
-  color: darkslateblue;
+hr {
+  max-width:5000px
 }
